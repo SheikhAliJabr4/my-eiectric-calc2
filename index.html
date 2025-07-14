@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>منتجي الرقمي</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .card {
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            max-width: 400px;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 15px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-top: 20px;
+        }
+        p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .price {
+            font-size: 24px;
+            color: #e74c3c;
+            margin: 15px 0;
+        }
+        .payment {
+            font-size: 18px;
+            color: #2c3e50;
+            margin: 20px 0;
+        }
+        .whatsapp {
+            display: inline-block;
+            background: #25d366;
+            color: #fff;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-size: 20px;
+            text-decoration: none;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .whatsapp:hover {
+            background: #1ebe5d;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://via.placeholder.com/400x250.png?text=صورة+المنتج" alt="صورة المنتج" />
+        <h1>اسم منتجك الرقمي</h1>
+        <p>هذا وصف احترافي للمنتج مالتك، يشرح كل الميزات والفوائد ويشجع الزبون يشتريه فورًا.</p>
+        <div class="price">السعر: 15,000 دينار عراقي</div>
+        <div class="payment">
+            للدفع عبر زين كاش أو آسيا حوالة:<br/>
+            زين كاش: 07XXXXXXXXXX<br/>
+            آسيا حوالة: 07XXXXXXXXXX
+        </div>
+        <a class="whatsapp" href="https://wa.me/9647XXXXXXXXX?text=مرحبا، اريد شراء المنتج">اطلب عبر واتساب</a>
+    </div>
+</body>
+</html>
